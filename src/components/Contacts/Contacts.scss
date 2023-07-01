@@ -1,0 +1,39 @@
+.lists{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: 2px solid#98CCFD;
+border-radius: 30px;
+padding: 20px 40px;
+background-image: url("../../assets/imgs/bg.jpg");
+.imgs{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+    .title{
+        color: #98CCFD;
+      
+        font-family: "Dancing Script";
+
+
+ 
+    }
+}
+.deleted{
+    display: none;
+}
+&:hover{
+    transition:  0.5s ease-in-out ;
+    background-color: rgba(0, 0, 0, .4);
+    .deleted{
+       
+        display: flex;
+        
+    }
+}
+}
